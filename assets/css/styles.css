@@ -31,8 +31,11 @@ nav {
     font-size: 24px;
 }
 
-.hamburger {
-    justify-self: end;
+header .hamburger {
+    top: 25px;
+    left: 25px;
+    position: relative;
+    color: white;
 }
 
 section {
@@ -56,11 +59,12 @@ section {
 
 .headline {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 10%;
     font-size: 100px;
     transform: translate(-20%, -70%);
     color: white;
+    text-shadow: 2px 2px 5px rgba(85, 98, 112, 1);
     z-index: 10;
 }
 
