@@ -9,6 +9,11 @@
   "author": "Mila Decker",
   "license": "ISC",
   "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "gsap": "^3.5.1",
     "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "sass": "^1.32.2"
   }
 }
